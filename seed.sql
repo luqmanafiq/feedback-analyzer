@@ -1,0 +1,22 @@
+-- Mock feedback data for testing
+INSERT INTO feedback (source, content, user_id, created_at) VALUES
+('Support Ticket', 'The new dashboard is confusing. I cant find where to configure my DNS settings anymore. Please make the navigation more intuitive.', 'user_1234', '2026-01-28T10:30:00Z'),
+('Discord', 'Workers AI is amazing! Just deployed my first AI-powered app in under 30 minutes. The documentation was super helpful.', 'discord_user_567', '2026-01-28T11:15:00Z'),
+('GitHub', 'Bug: D1 database migration fails with cryptic error message when table name contains hyphens. Error code: D1_MIGRATION_ERROR_5001', 'dev_github_890', '2026-01-28T12:00:00Z'),
+('Twitter', 'Why does my Worker timeout after 30 seconds? I need to process large files. @cloudflare please increase the timeout limit!', 'twitter_user_345', '2026-01-28T13:45:00Z'),
+('Email', 'I love the new R2 pricing! Finally affordable object storage. Moving all my S3 buckets to R2 this week.', 'enterprise_client_22', '2026-01-28T14:20:00Z'),
+('Community Forum', 'How do I debug Workers locally? The docs mention wrangler dev but it doesnt work with D1 bindings. Need better local development experience.', 'forum_user_789', '2026-01-28T15:10:00Z'),
+('Support Ticket', 'Pages deployment failed 3 times today. Each time it says "build failed" but no error logs. Very frustrating when youre on a deadline.', 'startup_founder_11', '2026-01-28T16:00:00Z'),
+('Discord', 'The Cloudflare Docs MCP server is a game changer for AI coding. I can build Workers without constantly switching tabs!', 'discord_dev_222', '2026-01-29T09:00:00Z'),
+('GitHub', 'Feature Request: Add support for WebSockets in Workers. Would be perfect for real-time chat applications.', 'dev_contributor_44', '2026-01-29T10:30:00Z'),
+('Twitter', 'Just got hit with unexpected bandwidth charges. The pricing calculator needs to be more accurate. @cloudflare', 'saas_founder_99', '2026-01-29T11:20:00Z'),
+('Email', 'Your support team is incredible! They resolved my SSL certificate issue in under 2 hours. Best customer service Ive experienced.', 'happy_customer_55', '2026-01-29T12:15:00Z'),
+('Community Forum', 'Wrangler CLI keeps crashing on Windows 11. Anyone else having this issue? Using wrangler version 3.20.0', 'windows_user_333', '2026-01-29T13:40:00Z'),
+('Support Ticket', 'Workers AI response quality has degraded recently. Getting more hallucinations and incorrect responses. Are you using a different model?', 'ai_user_777', '2026-01-29T14:50:00Z'),
+('Discord', 'KV is so fast! Our app latency dropped from 200ms to 15ms after switching from PostgreSQL for session storage.', 'performance_engineer_88', '2026-01-29T15:30:00Z'),
+('GitHub', 'Documentation is outdated for Workflows. The API examples dont match the current implementation. Please update docs.', 'doc_contributor_66', '2026-01-29T16:45:00Z'),
+('Twitter', 'Cloudflare Zero Trust is a lifesaver for our remote team. Setup was easier than expected. Highly recommend!', 'cto_startup_44', '2026-01-30T08:00:00Z'),
+('Email', 'Billing portal is hard to navigate. I need to download invoices but cant figure out where they are. Please improve the UX.', 'finance_manager_33', '2026-01-30T09:30:00Z'),
+('Community Forum', 'How do I implement rate limiting in Workers? The examples in docs are too basic. Need production-ready patterns.', 'backend_dev_111', '2026-01-30T10:15:00Z'),
+('Support Ticket', 'Images on R2 are loading slowly in Asia-Pacific region. Is there a way to enable edge caching for R2 buckets?', 'apac_customer_99', '2026-01-30T11:00:00Z'),
+('Discord', 'The new Cloudflare dashboard redesign is beautiful! Much cleaner than before. Great job design team!', 'ui_enthusiast_222', '2026-01-30T12:30:00Z');
