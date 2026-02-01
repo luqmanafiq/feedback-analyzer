@@ -142,58 +142,6 @@ After deploying, test these scenarios:
    - D1 Queries: <20ms typical
    - Workers AI: 1-3s typical
 
-## Customization Ideas
-
-### Easy Additions (5-10 min each):
-- [ ] Add date range filter for feedback
-- [ ] Export analysis as JSON
-- [ ] Add more feedback sources
-- [ ] Customize color scheme
-- [ ] Add feedback search
-
-### Medium Additions (30-60 min each):
-- [ ] Implement KV caching for analysis
-- [ ] Add scheduled Workflows for daily reports
-- [ ] Integrate with Slack/Discord webhooks
-- [ ] Add user authentication
-- [ ] Implement pagination
-
-### Advanced Additions (2+ hours):
-- [ ] Use AI Search (RAG) for semantic feedback search
-- [ ] Multi-language sentiment analysis
-- [ ] Historical trend visualization
-- [ ] Real-time feedback streaming
-- [ ] Advanced filtering and segmentation
-
-## For the Assignment Submission
-
-### Required Deliverables:
-
-1. **PDF Document containing:**
-   - Project Links (live URL + GitHub)
-   - Architecture overview (screenshot of bindings)
-   - 3-5 Friction Log insights
-   - Optional: Vibe-coding context
-
-2. **Live Demo:**
-   - Must be accessible at your Workers URL
-   - Should have data (use seed.sql)
-   - All features should work
-
-3. **GitHub Repository:**
-   - Clean, documented code
-   - README with setup instructions
-   - Include wrangler.toml (remove sensitive data)
-
-### Submission Checklist:
-- [ ] Project deployed and accessible
-- [ ] GitHub repo is public
-- [ ] README includes architecture explanation
-- [ ] Friction log has 3-5 quality insights
-- [ ] Screenshot of Workers Bindings page
-- [ ] PDF formatted professionally
-- [ ] Links tested and working
-- [ ] Submitted before Feb 1, 2026 11:59 PM GMT
 
 ## Time Management
 
@@ -215,19 +163,10 @@ Recommended 3-4 hour breakdown:
   - Create PDF
   - Submit
 
-## Pro Tips
 
-1. **Use the starter code provided** - don't build from scratch
-2. **Seed mock data immediately** - saves time testing
-3. **Deploy early, deploy often** - catch issues fast
-4. **Document friction as you go** - don't wait until the end
-5. **Keep it simple** - a working prototype beats a broken feature-complete app
-6. **Screenshot everything** - you'll need it for the PDF
-
-## Getting Help
+## Help
 
 - **Docs:** https://developers.cloudflare.com
 - **Discord:** https://discord.gg/cloudflaredev
 - **Assignment Issues:** pminternassignment@cloudflare.com
-
-Good luck! 🚀
+- **Claude**
